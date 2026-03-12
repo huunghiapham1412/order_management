@@ -1,0 +1,70 @@
+body {
+    background-color: #f0f7ff;
+    color: #1e293b;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.order-item {
+    border-bottom: 1px solid #e2e8f0;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+}
+
+.order-link {
+    color: #2563eb;
+    text-decoration: underline;
+}
+
+.product-img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    background-color: white;
+    padding: 5px;
+    border-radius: 8px;
+    border: 1px solid #e2e8f0;
+    margin-top: 1rem;
+}
+
+.form-container {
+    background-color: #ffffff;
+    border: 1px solid #e2e8f0;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"] {
+    background-color: #f8fafc;
+    border: 1px solid #cbd5e1;
+    color: #1e293b;
+}
+
+input::placeholder {
+    color: #94a3b8;
+}
+
+.btn-status-toggle {
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.btn-status-toggle:hover {
+    opacity: 0.8;
+    transform: scale(1.05);
+}
+
+#customAlert {
+    display: none;
+}
+
+#customAlert.active-modal {
+    display: flex;
+}
+
+.seller-group-header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: #f0f7ff;
+    padding: 10px 0;
+}
